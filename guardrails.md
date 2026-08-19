@@ -46,6 +46,9 @@ Coverage that lies is worse than coverage that's missing.
 
 ### 6. Know when NOT to use it
 AI assistance is weakest exactly where stakes are highest:
+- **Unplanned work** — the clearest pattern from our own misses: every bad
+  AI outcome traced back to an incomplete or wrong ask, i.e. work we hadn't
+  scoped for ourselves yet. If you can't write the requirement, don't prompt it.
 - **Novel domain logic** — it pattern-matches to the mainstream; your edge
   cases are not mainstream.
 - **Debugging unfamiliar production systems** — confident wrong hypotheses

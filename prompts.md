@@ -98,3 +98,12 @@ guesses, in any prompt where facts matter.
 
 Every template above is that shape. The honesty clause is the one people
 forget, and it's the one that keeps trust in the loop.
+
+## The objection a skeptical senior engineer will raise
+
+*"Prompt templates are cargo-culting — good engineers just write clearly."*
+They do — once. The template's job is making the tenth, tired, 6-pm ask as
+rigorous as the first: that's why these live as slash-commands in the repo
+(`.claude/skills/`), versioned and reviewed like code, instead of in anyone's
+memory. A prompt in the repo is a team standard; a prompt in your head is a
+personal habit that leaves when you do.

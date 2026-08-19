@@ -73,7 +73,7 @@ shipping code nobody understands.
 *"AI review before human review just means humans rubber-stamp whatever the
 AI approved."* — Backwards, in practice. The AI pass eats the mechanical
 findings (naming, missed null checks, forgotten error paths) so the human
-review, which now takes one round instead of several, is spent entirely on
+review — which on my team dropped from 3–5 rounds to 1–3 — is spent on
 what humans are uniquely good at: "is this the right design for our domain?"
 The human round gets *smaller and sharper*, not lazier. The discipline that
 keeps it honest is rule 3 — a human still has to explain every line they merge.
