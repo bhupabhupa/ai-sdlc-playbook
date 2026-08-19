@@ -6,13 +6,20 @@ every chapter must (a) answer the skeptical-senior-engineer objection,
 
 ## Chapters
 
-- [ ] FR-2 workflow.md — the AI-assisted development loop (drafted from the
+- [x] FR-2 workflow.md — the AI-assisted development loop (drafted from the
       actual workflow used to build secure-portal and labdocs-ai)
-- [ ] FR-3 guardrails.md — "AI drafts, humans decide" rules
-- [ ] FR-4 prompts.md — 6–8 battle-tested prompt templates with examples
-- [ ] FR-1 README.md — the story + TL;DR + navigation (**needs owner facts**)
-- [ ] FR-5 rollout.md — 4-week adoption plan (**needs owner anecdote**)
-- [ ] FR-6 metrics.md — what to measure + honest caveats (**needs owner numbers**)
+- [x] FR-3 guardrails.md — "AI drafts, humans decide" rules
+- [x] FR-4 prompts.md — 6–8 battle-tested prompt templates with examples
+- [x] FR-1 README.md — the story + TL;DR + navigation (owner facts confirmed
+      2026-08-18: 15+ team, 3–5 → 1–3 rounds measured from PR history,
+      Cursor → Claude Code Nov 2025; 60% figure dropped as unconfirmed)
+- [x] FR-5 rollout.md — 4-week plan, honestly framed as experience distilled
+      (adoption was organic; no fabricated pilot or anecdote)
+- [x] FR-6 metrics.md — what to measure + honest caveats incl. owner's real
+      measurement gaps stated as lessons
+
+All six chapters passed the spec Review Checklist (skeptic objection answered
+per chapter, no vendor marketing, TL;DR ≤30s, all claims owner-confirmed).
 
 ## Order & rationale
 
