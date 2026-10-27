@@ -69,17 +69,12 @@ log. Three honest outcomes:
 
 ## When NOT to use AI (tell the team explicitly)
 
-- **Unplanned work.** The clearest pattern from our own misses: every bad AI
-  outcome traced back to an incomplete or wrong ask — which really means work
-  we hadn't scoped for ourselves yet. If you can't write the requirement
-  clearly, the AI amplifies your confusion with confidence. Plan first.
-- Novel domain logic where the team is still forming its own understanding
-- Security/compliance-critical paths — full human process, always
-  ([guardrails rule 3](guardrails.md))
-- Debugging unfamiliar production incidents — confident wrong hypotheses are
-  worse than slow right ones
-- Anything an engineer is deliberately learning — outsource typing, never
-  learning
+Hand the team [guardrails rule 6](guardrails.md) on day one rather than
+letting them discover the limits on their own PRs. Lead with **unplanned
+work** — the clearest pattern from our own misses: if you can't write the
+requirement clearly, the AI amplifies your confusion with confidence. Then
+grow the list with your own misses log; by week 4, the team-specific entries
+are worth more than the generic ones.
 
 ## The objection a skeptical senior engineer will raise
 

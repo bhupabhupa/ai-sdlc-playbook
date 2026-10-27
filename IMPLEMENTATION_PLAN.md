@@ -31,7 +31,7 @@ invented; unconfirmed claims carry [VERIFY] and block commit.
 
 ## Owner interview — facts needed before FR-1/5/6
 
-1. Team size and shape at Scitara (the "15+" in the spec — accurate?)
+1. Team size and shape at the pharma platform company (the "15+" in the spec — accurate?)
 2. Review rounds before AI adoption (spec says 3–5 — real number?)
 3. What the pilot actually was: which team/project, how many volunteers, duration
 4. Outcome numbers you can stand behind (spec's "1–2 rounds, ~60% faster" — real?
@@ -39,5 +39,16 @@ invented; unconfirmed claims carry [VERIFY] and block commit.
 5. The skeptic story: who objected (role, not name), what the objection was,
    what changed their mind (or didn't)
 6. What you measured (or wish you'd measured) — for metrics.md honesty
-7. Which AI tools were approved/used at Scitara (named only where needed)
+7. Which AI tools were approved/used there (named only where needed)
 8. When did AI clearly NOT help — a real example (this is what earns trust)
+
+## Consistency pass (2026-10-27)
+
+- SPEC FR-1/FR-5 aligned with confirmed facts (1–3 rounds, organic adoption,
+  no time-to-merge figure); employer not named.
+- Agent-enforcement claims in workflow.md/guardrails.md narrowed to what the
+  tool lists actually enforce (test-writer is scoped by instruction + review).
+- .claude/ kit adapted to a docs repo: test-writer and /write-tests replaced
+  by /review-chapter, which runs the Review Checklist.
+- rollout.md "when NOT to use AI" now points to guardrails rule 6 instead of
+  duplicating it.

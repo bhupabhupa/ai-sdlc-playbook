@@ -60,9 +60,10 @@ AI assistance is weakest exactly where stakes are highest:
 
 *"These rules sound nice, but under deadline pressure they'll evaporate."*
 Fair — which is why the load-bearing rules are structural, not aspirational:
-restricted-tool agents (the reviewer literally cannot fix, the test-writer
-literally cannot touch src/), CI gates that don't know or care whether AI was
-involved, and a PR-template checkbox for the explanation rule. Culture decays
+restricted-tool agents (the architect has read-only tools, the reviewer has
+no edit tools; the test-writer is scoped to test directories, and any diff it
+makes outside them is a review blocker), CI gates that don't know or care
+whether AI was involved, and a PR-template checkbox for the explanation rule. Culture decays
 under pressure; tooling doesn't.
 
 ## What this buys you

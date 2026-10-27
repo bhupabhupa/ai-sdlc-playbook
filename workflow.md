@@ -80,8 +80,11 @@ keeps it honest is rule 3 — a human still has to explain every line they merge
 
 ## Role separation, enforced by tooling
 
-Don't rely on the AI remembering its role — enforce it. My project template
-defines three AI agents with *restricted tools*: an *architect* that can read
-but not write code, a *test-writer* that can only touch test directories, and
-a *reviewer* that can flag but not fix. The same capability-over-trust
-principle as RBAC — see `.claude/agents/` in either companion repo.
+Don't rely on the AI remembering its role — enforce it where the tooling
+allows. My project template defines three AI agents with *restricted tools*:
+an *architect* with read-only tools, a *reviewer* with no edit tools, so it
+can flag but not fix, and a *test-writer* that needs write access but is
+scoped to test directories — so for it, the check moves to review: a
+test-writer diff outside test directories is rejected on sight. The same
+capability-over-trust principle as RBAC, plus an honest note of where it
+stops — see `.claude/agents/` in either companion repo.

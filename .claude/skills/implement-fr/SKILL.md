@@ -11,6 +11,6 @@ Implement $ARGUMENTS from docs/SPEC.md. Rules:
    do not fix them now.
 3. Follow the Design Spec section of docs/SPEC.md; if you deviate, say why
    in one sentence.
-4. Run the app or relevant script to verify it works; show the verification.
+4. Verify the chapter: run /review-chapter on it and show the result.
 5. Update IMPLEMENTATION_PLAN.md: check off the FR.
 6. End with "Key decisions:" - max 3 bullets the owner can repeat in an interview.
