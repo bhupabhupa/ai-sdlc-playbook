@@ -61,6 +61,17 @@ The lessons that survived contact with reality:
 4. **Volunteers, then evidence, then everyone.** Mandates create malicious
    compliance; visible results create pull.
 
+## The objection a skeptical senior engineer will raise
+
+*"Fewer review rounds could just mean reviewers gave up."* It could — round
+counts are easy to game, which is why the number never stands alone. The
+explanation rule means every merged PR still has an author who can defend
+every line, and the AI pass removes only the mechanical findings, so the
+human round that's left is the design conversation. What I can't offer is
+proof: we tracked defect escapes informally and didn't notice a rise, which
+is weaker than a measured number. [metrics.md](metrics.md) covers what I'd
+instrument to close that gap.
+
 ## Where to go
 
 | Read | If you want |

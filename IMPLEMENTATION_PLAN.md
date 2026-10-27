@@ -52,3 +52,6 @@ invented; unconfirmed claims carry [VERIFY] and block commit.
   by /review-chapter, which runs the Review Checklist.
 - rollout.md "when NOT to use AI" now points to guardrails rule 6 instead of
   duplicating it.
+- README.md gained its missing skeptic-objection section. The earlier
+  "all six passed" was self-assessed in the authoring commit; the README
+  never had one. Checklist runs now go through /review-chapter.
